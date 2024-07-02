@@ -5,9 +5,9 @@ There are totally three files that need modification to run AE-ORB-SLAM. The mai
 
 https://www.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html
 
-the bagOfFeatures method should be adjusted to accept a proper helperExtractorFunction to accept only ORB features.
+The bagOfFeatures method should be adjusted to accept a proper helperExtractorFunction to accept only ORB features.
+This Reaserch is based on the following paper, if you find it usefull please cite it in the following form.
 
-'''markdown
 @misc{Self-supervised vector-quantization invisual slam,
       title={Self-supervised Vector-Quantization in Visual SLAM using Deep Convolutional Autoencoders}, 
       author={Amir Zarringhalam and Saeed Shiry Ghidary and Ali Mohades Khorasani},
